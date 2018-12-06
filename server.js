@@ -8,6 +8,8 @@ const fiends = require("./fiends.js")
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+console.log(fiends)
+
 
 // Routes
 // =============================================================
